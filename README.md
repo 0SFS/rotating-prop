@@ -41,3 +41,5 @@ Quadcopter RPM is each rotor's simulated speed from `@0sfs/multirotor`, the same
 ```sh
 cd ~/gh/0sfs/fly && npx vitest run --configLoader native ../rotating-prop/tests
 ```
+
+Topics: `0sfs-mod` and `0sfs-component-mod`. [Modding guide](https://github.com/0SFS/docs/blob/main/modding.md) describes discovery and installation.

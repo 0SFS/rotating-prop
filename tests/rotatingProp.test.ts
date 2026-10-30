@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { Mesh, MeshBuilder, NullEngine, Quaternion, Scene, TransformNode, Vector3, VertexBuffer } from '@babylonjs/core';
+import { Mesh, MeshBuilder, NullEngine, Scene, TransformNode, Vector3, VertexBuffer } from '@babylonjs/core';
 import { createRotatingProp, measureSweepProfile, propPresentation, stepRotatingProp, maxReadableRadPerSec } from '../src';
 /** Radius about, thickness along and centre offset along world Y through `hub`. */
 function worldExtent(mesh: Mesh, hub: Vector3) {
